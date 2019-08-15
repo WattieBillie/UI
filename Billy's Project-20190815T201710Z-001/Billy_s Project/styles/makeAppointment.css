@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 700px;
+}
+
+.navBar{
+    background-image: linear-gradient(to left, #513268, #694A99 , #513268);
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+}
+
+.navBar .viewMentors, .ViewSpecific{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.navBar .logo{
+    margin-left: 30px;
+}
+
+.companyTitle{  
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.navBar button{
+    width: 170px;
+    height: 50px;
+    background-image: linear-gradient(to right, #F97A3E , #E0445B);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 250px;
+    cursor: pointer;
+}
+
+.navBar button:hover{
+    background-image: linear-gradient(to right, #61458F , #61458F);
+    border: 2px solid #E0445B;
+}
+
+.navBar .viewMentors a, .ViewSpecific a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.navBar .viewMentors label:hover, .ViewSpecific label:hover{
+    cursor: pointer;
+}
+
+.navBar .viewMentors a:hover, .ViewSpecific a:hover{
+    text-decoration: underline;
+    color: #828892;
+    cursor: pointer;
+}
+
+.container .central{
+    display: flex;
+    margin-top: 20px;
+}
+
+.container .central .left, .right{
+    box-shadow: 10px 10px 8px 8px #888888;
+    width: 550px;
+    margin-left: 60px;
+}
+
+.container .central .left div, .right div{
+    margin-bottom: 10px;
+}
+
+.central .left .heading, .right .heading{
+    margin-left: 200px;
+    margin-top: 20px;
+    color: #433948;
+    font-weight: bold;
+    font-size: large;
+}
+
+.central .left .physicalSession, .right .videoSession{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #433948;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.central .left .physicalSession input, .right .videoSession input{
+    width: 200px;
+    border: 1px solid #D6D6E3;
+    margin-left: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: small;
+}
+
+.central .left .physicalSession textarea, .right .videoSession textarea{
+    border: 1px solid #D6D6E3;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: small;
+}
+
+.central .left button, .right button {
+    width: 170px;
+    height: 30px;
+    background-image: linear-gradient(to right, #F97A3E , #E0445B);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.central button:hover{
+    background-image: linear-gradient(to right, #61458F , #61458F);
+    border: 2px solid #E0445B;
+}
+
+.footer {
+    background-image: linear-gradient(to bottom, #52346C, #52346C, #694A99);
+    height: 100px;
+    width: 100%;
+    color: #828892;
+}
+
+.horizontal{
+    width: 90%;
+    margin-left: 28px;
+    border: 0.5px solid #828282;
+}
+
+.detail{
+    display: flex;
+    margin-left: 28px;
+    margin-top: 5px;
+}
+
+.footer .image{
+    margin-left: 28px;
+}
+
+.detail .details{
+    display: flex;
+    margin-left: 680px;
+}
+
+.detail .details div{
+    margin-left: 20px;
+}
+
+.locationSpan{
+    height: 20px;
+    width: 300px;
+    margin-left:30px;
+}
+
+span{
+    color: red;
+}
